@@ -1,24 +1,64 @@
+:root{
+    --Primary_01:  #FFCC4A;
+    --Primary_02:  #4EAF4E;
+    --Primary_03:  #181818;
+    --Secondary_01:  #F5F5F5;
+    --Secondary_02:  #FFFFFF;
+}
+/* background-color: var(--primary_01); */
+
 * {
     box-sizing: border-box;
 }
 
 body{
     display: block;
+    margin: 0; 
     }
     
 
 .homepage {
     margin: 0 0 2px 0;
 }
-    
-.header {
-    background-color: rgba(27, 27, 27, 0.91);; 
-    /* išcentruoja elementus */
-    margin: 0;
-    /* kai norim kad visas konteineris turėtų kraštelį */
-    padding: 30px 15%;
-    width: 100%;
+   
+.topbar {
     display: flex;
+    align-items: center;
+    gap: 340px;
+    justify-content: center;
+    background-color: #181818;
+    font-family: Lato;
+    font-size: 14px;
+    color: var(--Secondary_02);
+    width: 100%;
+    padding: 18px 361px;
+    margin: 0;
+}
+
+.work {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.adress {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    background-color: #1b1b1be8;; 
+    margin: 0;
+    padding: 40px 360px;
+    width: 100%;
     align-items: center;
     gap: 105px;
     justify-content: center;
@@ -31,8 +71,8 @@ body{
 }
 
 .ask-experts{
-    color: #FFF;
-    font-family:  Arial, Helvetica, sans-serif; 
+    color: var(--Secondary_02);
+    font-family:  Cabin; 
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
@@ -45,7 +85,7 @@ font-size: 10px;
 display: flex;
 align-items: flex-start;
 gap: 30px;
-font-family: Arial, Helvetica, sans-serif; 
+font-family: Lato; 
 font-size: 17.728px;
 font-style: normal;
 font-weight: 400;
@@ -53,33 +93,149 @@ line-height: 160%;
 }
 
 .elipse {
-    border-color: hsla(0, 0%, 32%, 1);
+    border-color: #525252;
 }
 
 .home {
     color: #5AB612;
+    display: flex;
+    align-items: center;
+    gap: 8.22px;
+}
 
+.page {
+    display: flex;
+    align-items: center;
+    gap: 8.22px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    gap: 8.22px;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    gap: 8.22px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 8.22px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 8.22px;
 }
 
 .phone {
     display: flex;
     align-items: center;
     gap: 11px;
-    background-color: #FFF;
+    background-color: var(--Secondary_02);
     border-radius: 42px;
     padding: 8px 41px 8px 10px;
 }
 
+
 .no {
     color: #353535;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato;
     font-size: 18px;
 }
 
 .photo {
     display: flex;
     justify-content: center;
+    width: 100%;
+    position: absolute;
 }
+
+.h1 {
+    width: 435px;
+    color: var(--Primary_03);
+    font-family: Cabin;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 70;
+}
+
+.sp1{
+    color: #595566;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.b1 {
+   display: flex;
+   padding: 16px 33px;
+   align-items: center;
+   justify-content: center;
+   gap: 10px; 
+   border-radius: 42px;
+   background-color: var(--Primary_03);
+   color: var(--Secondary_02);
+   width: 167px;
+   height: 61px;
+   font-family: Lato;
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.b2 {
+    display: flex;
+    padding: 8px 10px;
+    align-items: center;
+    gap: 11px; 
+    border-radius: 42px;
+    border: 1px solid #EBEBEB;
+    background-color: var(--Secondary_02);
+    color:#353535;
+    justify-content: center;
+    font-family: Lato;
+   font-size: 16px;
+   font-weight: 400; 
+   font-style: normal;
+ }
+
+ .b-group1 {
+    display: flex;
+    align-items: center;
+    gap: 13px; 
+ }
+
+ .display-content {
+    display: flex;
+    width: 551.146px;
+    padding: 55px 58px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    border-radius: 29px;
+    background-color: rgba(255, 255, 255, 0.85); 
+    position:absolute;
+    margin-top: 244.99px;
+    margin-left: 238.80px;   
+ }
+
+ .photo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    padding: 0;
+    margin: 0;
+ }
+
+
+
 
 
 
