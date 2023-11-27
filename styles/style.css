@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    }
+    
+
+.homepage {
+    margin: 0 0 2px 0;
+}
+    
+.header {
+    background-color: #515151; 
+    /* išcentruoja elementus */
+    margin: 0;
+    /* kai norim kad visas konteineris turėtų kraštelį */
+    padding: 30px 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bar {
+color: white; 
+font-size: 10px;
+display: flex;
+justify-content: space-evenly;
+}
+
+      
+
+    
+
