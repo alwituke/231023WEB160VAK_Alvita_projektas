@@ -332,30 +332,9 @@ body {
     gap: 13px;
 }
 
-/* .splide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    position: relative;
-    opacity: 0.51;
-    padding-top: 20px;
-    margin: 0 auto;
-    visibility: visible;
-} */
-
-.splide__list {
-    display: flex;
-    align-items: center;
-   justify-content: center;
-    gap: 50px;
-    width: 80%;
-    /* position: relative; */
-    opacity: 0.51;
-    padding-top: 20px;
-    margin: 0 auto;
-    visibility: visible;
-}
+.splide {
+    margin: 40px auto;
+} 
 
 .page-not-found {
      width: 1200px;
