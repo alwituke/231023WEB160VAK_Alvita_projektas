@@ -359,6 +359,7 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .about-us {
     display: flex;
     width: 420.204px;
@@ -402,7 +403,6 @@ body {
 
 .about-text h1 {
     width: 420.204px;
-    height: 106.551px;
     color: var(--Primary_03);
     font-family: Cabin;
     font-size: 45px;
@@ -542,7 +542,7 @@ body {
     border-radius: 20px;
     background: var(--Primary_02);
     width: 74px;
-    height: 26;
+    /* height: 26; */
     color: var(--Secondary_02);
     font-family: Lato;
     font-size: 16px;
@@ -674,7 +674,7 @@ body {
     border-color: var(--Primary_03);
     color: var(--Secondary_02);
     font-family: Lato;
-    font-size: 17px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 160%; /* 28.8px */
@@ -683,8 +683,8 @@ body {
     padding: 16px 40px;
     align-items: flex-start;
     gap: 10px;
-    width: 167px;
-    height: 61px;
+    /* width: 167px;
+    height: 61px; */
 }
 
 .blog-content-1-content-profile {
@@ -759,7 +759,7 @@ body {
     border: 1px solid #C1C1C1;
     color: var(--Primary_03);
     font-family: Lato;
-    font-size: 17px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 160%; /* 28.8px */
@@ -768,8 +768,8 @@ body {
     padding: 16px 40px;
     align-items: flex-start;
     gap: 10px;
-    width: 167px;
-    height: 61px;
+    /* width: 167px;
+    height: 61px; */
 }
 
 .blog-content-2-content-profile {
@@ -797,9 +797,139 @@ body {
 .contact-form0 {
     width: 1200px;
     margin: 0 auto;
-    padding: 0; 
     background: var(--Secondary_02);
     padding: 178px 0px;
+}
+
+.contact-form1 {
+    display: flex;
+    padding: 16px 40px;
+    align-items: flex-start;
+    gap: 91px;
+}
+
+.contact-form2 {
+    display: flex;
+    width: 407px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 38px;
+}
+
+.b5 {
+    background-color: var(--Primary_01);
+    border-color: var(--Primary_01);
+    color: var(--Primary_03);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.5%; /* 23.6px */
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    display: flex;
+    padding: 0px 12px;
+    align-items: center;
+    gap: 10px;
+    width: 127px;
+}
+
+.sp4 {
+    width: 407px;
+    color: #595566;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.5%; /* 23.6px */  
+}
+
+.contact-form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+}
+
+.contact-form-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    width: 688.37px;
+}
+
+
+.contact-form-text1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.textarea-field {
+    display: flex;
+    width: 318px;
+    padding: 22px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 54px;
+    border: 1px solid #C1C1C1;
+    background: var(--Secondary_02);
+    color: #A9A9A9;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.5%; /* 23.6px */
+}
+
+.textarea-name {
+    color: var(--Primary_03);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.5%; /* 23.6px */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.textarea-field1 {
+    display: flex;
+    width: 666px;
+    padding: 22px 33px 111px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 22px;
+    border: 1px solid #C1C1C1;
+    background: var(--Secondary_02);
+    color: #A9A9A9;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.5%; /* 23.6px */
+}
+
+.b6 {
+    background-color: var(--Primary_03);
+    border-color: var(--Primary_03);
+    color: var(--Secondary_02);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+    border-radius: 42px;
+    display: flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 10px;
+    /* width: 167px;
+    height: 61px; */
 }
 
 
