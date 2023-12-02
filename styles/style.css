@@ -199,12 +199,14 @@ body {
     position: relative;
 }
 
-.photo-box6 {
-    height: 700px;
+.Page-not-found {
     background-image: url(../images/nav/Photo-6.png);
     background-size: cover;
     background-position: center;
     position: relative;
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .photo {
