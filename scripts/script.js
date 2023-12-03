@@ -13,8 +13,9 @@ new Splide( '.splide', {
   drag   : 'free',
   focus  : 'center',
   arrows: undefined,
+  pagination: false,
   autoScroll: {
-         speed: 8,
+         speed: 6,
            },
 } ).mount( window.splide.Extensions );
 
