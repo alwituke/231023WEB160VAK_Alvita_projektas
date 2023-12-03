@@ -1,5 +1,3 @@
-
-
 new Splide( '.splide').mount();
 
 new Splide( '.splide', {
