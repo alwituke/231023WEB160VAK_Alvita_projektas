@@ -27,7 +27,7 @@ body {
 .topbar {
     display: flex;
     align-items: center;
-    gap: 340px;
+    gap: 330px;
     justify-content: center;
     font-family: Lato;
     font-size: 14px;
@@ -1131,4 +1131,381 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 147.5%; /* 23.6px */
+}
+
+
+/* PAD MODE */
+@media only screen and (max-width: 1205px){
+    .topbar {
+        gap: 120px;
+        width: 800px;
+    }
+
+    .header {
+        width: 800px;
+        gap: 20px;
+        padding: 25px 0;
+    }
+    .menu-bar {
+        gap: 10px;
+    }
+    .logo {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .phone {
+        flex-direction: column;
+        gap: 2px;
+        padding: 12px 10px 12px 10px;
+        border-radius: 22px;
+    }
+    .display-content {
+        gap: 15px;
+        left: 200px;
+        padding: 35px 38px;
+        width: 450px;
+    }
+    .h1 {
+        width: 335px;
+        font-size: 35px;
+    }
+
+    .about-h{
+        width: 800px;
+    }
+    .about0 {
+        flex-direction: column;
+        padding: 78px 0;
+    }
+    .blog0 {
+        width: 800px;
+    }
+    .blog {
+        padding: 78px 0px;
+        width: 800px;
+    }
+    .blog-title {
+        gap: 84px;
+    }
+    .blog-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'blogImage1'
+            'blog1Text'
+            'blog1profile'
+            'blogPhoto'
+            'blog2text'
+            'blog2profile';
+        width: 582.799px;
+        margin: 0 auto;
+        grid-gap: 27px;
+    }
+    .contact-form0 {
+        width: 800px;
+        padding: 78px;
+    }
+
+    .contact-form1 {
+        gap: 41px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-content0 {
+        width: 800px;
+    }
+    .footer-content {
+        gap: 20px;
+    }
+    .footer-content-logo {
+        gap: 20px;
+    }
+    .footer-content-content {
+        gap: 40px;
+    }
+    .copyright {
+        width: 800px;
+    }
+    .Page-not-found {
+        width: 800px;
+    }
+    .display-content2 {
+        gap: 15px;
+        left: 200px;
+        padding: 35px 38px;
+        width: 450px;
+    }
+    .h1-2 {
+        width: 335px;
+        font-size: 35px;
+    }
+    .h1-1 {
+        width: 335px;
+        font-size: 35px;
+    }
+    .display-content0 {
+        width: 800px;
+    }
+    .line-6 {
+        width: 800px;
+    }
+    .copyright0 {
+        width: 800px;
+    }
+}
+
+
+/* Phone mode */
+
+@media only screen and (max-width: 810px){
+    .topbar {
+        gap: 10px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+        gap: 10px;
+        padding: 25px 0;
+        flex-direction: column;
+    }
+    .menu-bar {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .logo {
+        flex-direction: row;
+        gap: 8px;
+    }
+    .phone {
+        flex-direction: row;
+        gap: 2px;
+        padding: 5px;
+        border-radius: 18px;
+    }
+    .photo-box {
+        height: 400px;
+    }
+    .display-content0 {
+        width: 400px;
+    }
+    .display-content {
+        gap: 15px;
+        left: 0px;
+        padding: 25px 28px;
+        width: 400px;
+    }
+    .h1 {
+        width: 235px;
+        font-size: 25px;
+    }
+
+    .nav-image0 {
+        width: 400px;
+        height: auto;
+    }
+
+    .nav-image {
+        width: 390px;
+        height: auto;
+        position: relative;
+        background-size: cover;
+    }
+    .about0 {
+        flex-direction: column;
+        padding: 78px 0;
+        width: 400px;
+    }
+    .about-us1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    .about-us {
+        display: flex;
+        width: 390px;
+        gap: 20px;
+    }
+    .about-text {
+        display: flex;
+        width: 390px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .about-text h1 {
+        width: 390px;
+        font-size: 25px;
+    }
+    .sp2 {
+        width: 390px;
+    }
+    .sp3 {
+        width: 390px;
+    }
+    .blog0 {
+        width: 400px;
+    }
+    .blog {
+        padding: 38px 0px;
+        width: 400px;
+        gap: 30px;
+    }
+    .blog-title {
+        gap: 15px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .blog-title-text2 h1 {
+        font-size: 25px;
+        width: 390px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .blog-image1-1 {
+        border-radius: 0;
+        width: 400px;
+        height: auto;
+    }
+    .blog-Photo-1 {
+        border-radius: 0;
+        width: 400px;
+        height: auto;
+    }
+    .blog-content-1-content-text1 {
+        width: 390px;
+    }
+    .blog-content-2-content-text1 {
+        width: 390px;
+    }
+    .blog-content-1-content-text h1 {
+        width: 390px;
+        height: auto;
+        font-size: 25px;
+    }
+    .blog-content-2-content-text h1 {
+        width: 390px;
+        height: auto;
+        font-size: 25px;
+    }
+    .bloger-date {
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 15px;
+        flex-direction: column;
+        width: 400px;
+    }
+    .line-3 {
+        width: 400px;
+    }
+    .bloger-date2 {
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 15px;
+        flex-direction: column;
+        width: 400px;
+    }
+    .blog-content {
+        width: 400px;
+    }
+    .contact-form0 {
+        width: 400px;
+        padding: 58px;
+        margin: 0;
+    }
+    .contact-form2 {
+        width: 390px;
+        gap: 28px;
+    }
+    .sp4 {
+        width: 390px;
+    }
+    .contact-form-content {
+        gap: 36px;
+    }
+    .contact-form-text1 {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .contact-form-text {
+        width: 390px;
+        margin: 0 25px;
+    }
+
+    .textarea-field1 {
+        width: 390px;
+    }
+    .textarea-field {
+        width: 390px;
+        border-radius: 22px;
+    }
+    .about-h {
+        width: 400px;
+    }
+    .line-4 {
+        height: 1px;
+        width: 236.918px;
+    }
+    .contact-form1 {
+        margin: 0;
+    }
+    .footer-content0 {
+        width: 400px;
+    }
+    .footer-content {
+        gap: 20px;
+        flex-direction: column;
+        width: 400px;
+    }
+    .footer-content-logo {
+        gap: 20px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .footer-content-content {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 390px;
+        align-items: flex-start;
+        gap: 35px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copyright {
+        width: 400px;
+    }
+    .copyright-text span {
+        font-display: center;   
+    }
+
+    .Page-not-found {
+        width: 400px;
+    }
+
+
+    .display-content2 {
+        gap: 15px;
+        left: 0px;
+        padding: 25px 28px;
+        width: 400px;
+    }
+    .h1-2 {
+        width: 235px;
+        font-size: 25px;
+    }
+    .h1-1 {
+        width: 235px;
+        font-size: 25px;
+    }
+    .line-6 {
+        width: 400px;
+    }
+    .copyright0 {
+        width: 400px;
+    }
+
 }
